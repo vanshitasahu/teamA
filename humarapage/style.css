@@ -2,3 +2,6 @@
     box-shadow: none;
     transform:scale(1.1);
 }
+.container btn{
+   color: red;
+}
