@@ -65,6 +65,9 @@
 								<li><a href="#">Contact</a></li>
 								
 								<li>
+									<li class="nav-item">
+										<a class="nav-link" data-toggle="modal" data-target="#login-box" href="#">Login</a>
+									</li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
 										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
@@ -83,7 +86,30 @@
 	</div>
 	
 	<!-- end header -->
-
+	<div class="modal fade" id="login-box">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Login or sign up</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label>Username/Eamil</label>
+						<input type="text" class="form-control" />
+					</div>
+					<div class="form-group">
+						<label>Password</label>
+						<input type="password" class="form-control" />
+					</div>
+				</div>
+				<div class="modal-footer">
+					<input type="submit" value="Login" class="btn btn-success" />
+					<input type="submit" value="sign up" class="btn btn-primary" />
+					<input type="button" value="Close" data-dismiss="modal" class="btn btn-danger" />
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- search area -->
 	<div class="search-area">
 		<div class="container">
@@ -158,7 +184,7 @@
             <div class="col-lg-8 offset-lg-2 text-center">
               <div class="section-title">
                 <h1>Our <span class="orange-text">Team</span></h1>
-                <p>Our hard working workers</p>
+                <p>Our hard working workers....</p>
               </div>
             </div>
           </div>
